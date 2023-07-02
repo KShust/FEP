@@ -2,7 +2,7 @@ const operator = prompt("Enter the function (+, -, *, /):");
 const num1 = Number(prompt("Enter the first number:"));
 const num2 = Number(prompt("Enter the second number:"));
 
-const result;
+var result;
 
 if (isNaN(num1) || isNaN(num2)) {
     alert("Invalid input");
